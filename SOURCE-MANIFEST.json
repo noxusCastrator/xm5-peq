@@ -1,0 +1,295 @@
+{
+  "schema": "xm5.public-source.v2",
+  "project": "xm5-peq",
+  "version": "0.1.0 a",
+  "files": {
+    ".gitattributes": {
+      "size": 74,
+      "sha256": "9e02a2e7546967985d4ae823f2ebe3ed69771f87edb77058dec13102b84fa837"
+    },
+    ".gitignore": {
+      "size": 321,
+      "sha256": "6cf262a037c0285c137feafeb660bd76ca83eca608f12728fec1700dd91e4d32"
+    },
+    "AGENTS.md": {
+      "size": 1028,
+      "sha256": "0be860114e657921c30248f16d15a5be361ab056a2f5b0aa774d62ae6d7e1bca"
+    },
+    "README.md": {
+      "size": 2834,
+      "sha256": "c34ae1c03e429e9c2e4ae626f46d5ab4309884f8fff57a92d4637c835993243b"
+    },
+    "THIRD_PARTY.md": {
+      "size": 1391,
+      "sha256": "d83b2ccf6776a1f9bfce1ceb4992df13e0ac00bfe03331c286b72a603a0da9d1"
+    },
+    "release.json": {
+      "size": 954,
+      "sha256": "65a1f8892c2ac841a5b03b4cb08dcc392c568ab14c973d419faffb8546a30f80"
+    },
+    "docs/AI_EQ_CONVERSION.md": {
+      "size": 10598,
+      "sha256": "d4a0771e29b3248657d5125ad46076a2e3e24979e9979aa4f042f5df90c6c39f"
+    },
+    "docs/BUILD.md": {
+      "size": 1840,
+      "sha256": "b0352fc255bb04c88f315e3fce3637ff531b9070d64d69133e984c4fb571bdc2"
+    },
+    "docs/CHANGELOG.md": {
+      "size": 1095,
+      "sha256": "ee5e7f9a8d0e08593476e597324a4bc1413c897b916a86b8d9f0bdcdb2099148"
+    },
+    "docs/CONFIG_FORMAT.md": {
+      "size": 9026,
+      "sha256": "8a450a0b5708207d88c94654a1753f1bad7832b442bd9dda4a97639c1be02cdf"
+    },
+    "src/AI_CONTEXT.md": {
+      "size": 5605,
+      "sha256": "0fd4339e24c12097d0f0ecf7e8a82dbbfc016165df63f823d4a69e6e0836ed27"
+    },
+    "src/audio/layers.h": {
+      "size": 797,
+      "sha256": "e11c8d16ed8f887f27c58bda24020127f5affc1482932ea23dca69dbc4b1449b"
+    },
+    "src/audio/native_pcm.h": {
+      "size": 3211,
+      "sha256": "676854b94bd7a3d57164c89367dbd8de6e66554a7530a1e36f1c4a593b678df7"
+    },
+    "src/audio/rate_gates.S": {
+      "size": 732,
+      "sha256": "e021f08db65fa3234dea3347515b3c24f80d5a4ba03ac1ca79eb955899fefd94"
+    },
+    "src/audio/stock_calls.S": {
+      "size": 377,
+      "sha256": "8ca9be37cb133a95f9ca4393df2acedea763f681948a8ee0b504e23615aa872f"
+    },
+    "src/audio/xm5_af_abi.h": {
+      "size": 3686,
+      "sha256": "808deb0e2726fdc7e71b9087ecff9c27ca6b5a1ca223efc3ea159fe9ede3e4e9"
+    },
+    "src/audio/xm5_peq_player.c": {
+      "size": 16102,
+      "sha256": "22615b3b52b804cff4757b058c75dca8fbfd1d45b15a8a01758f7ebc3442d9f1"
+    },
+    "src/audio/xm5_platform.h": {
+      "size": 2205,
+      "sha256": "df5a8cee43ec07b342f7d79225c951c20d79849181df2cbf918797914f3ee631"
+    },
+    "src/audio/vendor/LICENSE": {
+      "size": 1090,
+      "sha256": "bfc6c00784b0bd9967354643ce9c95a6bc84e9d88137fa1c35dd468d8204a07e"
+    },
+    "src/audio/vendor/UPSTREAM.md": {
+      "size": 2509,
+      "sha256": "9bc8c3b198461ff3d4f1a861602fd51e158b5b93b3b77ca17b62929748c7b1e8"
+    },
+    "src/audio/vendor/peq.c": {
+      "size": 23643,
+      "sha256": "39f226c406de72f6ff5c1607918e577245f0e4da52aa510d1355c8d4b5a19c61"
+    },
+    "src/audio/vendor/peq.h": {
+      "size": 2664,
+      "sha256": "795d805ee1e3d34d80204af202ebb87a43160f626e98613151db1eb6956ed4aa"
+    },
+    "src/audio/vendor/peq_platform.h": {
+      "size": 895,
+      "sha256": "acfc4a8debdf872e8b1589a9e06b11b8a87ac18609cd9150fc94a8976498b5bc"
+    },
+    "src/startup/patch.json": {
+      "size": 366,
+      "sha256": "152b81713288330dd8fdddcfbb68099050dd1c4c2d6cf65f433923fa08dcf2ac"
+    },
+    "src/startup/rescue-call.sh": {
+      "size": 48,
+      "sha256": "819b6974dfcb8292eb69d69d97c7b261cc2530d1e024b9db646767d7b6ef675d"
+    },
+    "src/startup/rescue-hook.sh": {
+      "size": 19306,
+      "sha256": "19aa206c719c2a8b1a642511af40746fd194905d0ca3ef80012fdc377d99f885"
+    },
+    "src/ui/binder.c": {
+      "size": 5272,
+      "sha256": "50bc1ecdf564165e1c5f4306c6798c10892733eb4f3b7acae37362e4b52a6746"
+    },
+    "src/ui/idlepool.c": {
+      "size": 2240,
+      "sha256": "23bb6c59b7d7ed8018c27d862e48c8de674c81e4809fe755483b136d2475534f"
+    },
+    "src/ui/idlepool.h": {
+      "size": 1494,
+      "sha256": "31cf6a38e8b992b7b8d580e94ea3bd908359273ae50c4cabdd5e51edab06d274"
+    },
+    "src/ui/layer_owner.c": {
+      "size": 3838,
+      "sha256": "ee2e146ed2c40ebe99ac77d9ca0561acefec23a514876c5c1b5ef6fde60b89a9"
+    },
+    "src/ui/layer_owner.h": {
+      "size": 141,
+      "sha256": "b9515de0f07f75dd18df52caf0db4cb1f2f7179edb5c4ba3141c0a4dc74e5790"
+    },
+    "src/ui/layers.h": {
+      "size": 797,
+      "sha256": "e11c8d16ed8f887f27c58bda24020127f5affc1482932ea23dca69dbc4b1449b"
+    },
+    "src/ui/materials.h": {
+      "size": 2687,
+      "sha256": "dd57f2123075261812baec729de50ce5a9ed4c792b0d2a7e771fd45df2280b9a"
+    },
+    "src/ui/native_header.h": {
+      "size": 1233,
+      "sha256": "f25557faf62b0b8a8e9f5b34a5cb9b3229f1c541e786572dfdb9937159433f3b"
+    },
+    "src/ui/payload.ld": {
+      "size": 1391,
+      "sha256": "460db1c1c70ca5a269cc09903555c1bca3110018030084e847176a58907d3b21"
+    },
+    "src/ui/runtime.c": {
+      "size": 5257,
+      "sha256": "50bfc859063aa4eefce38aa98544291478fb679b093f98a54ba091bfc20fa427"
+    },
+    "src/ui/stock_addrs.h": {
+      "size": 3318,
+      "sha256": "9f8a09fc64e80eb9f6544621004e46245d9baa50afe2a43895d6103322bcacb3"
+    },
+    "src/ui/thunks.S": {
+      "size": 3322,
+      "sha256": "2080612b6486b04c75bfbed23760291eeece2d6cb165e65b2e9fc9c0a0d761bb"
+    },
+    "src/ui/thunks.h": {
+      "size": 2245,
+      "sha256": "c5dfb0e31a5610658c83abcce45a1ea0c769f44c1c803433769cfcf60a4cef68"
+    },
+    "src/ui/trampoline.S": {
+      "size": 1998,
+      "sha256": "1b53508993b64aab6d1a514d32c3cf4bff02ca3943ed3a1033f3564a8913713f"
+    },
+    "src/ui/xm5_peq_platform.h": {
+      "size": 876,
+      "sha256": "250dc50bc0b431e3105629da018e93cab3cbd5c2e5b1998059d958556a756782"
+    },
+    "src/ui/compat/gnu/stubs-o32_hard_2008.h": {
+      "size": 162,
+      "sha256": "585947efd40ff116ddfa01abaca140a4146c7b7471c108c7bdf39b913c938939"
+    },
+    "src/ui/vendor/LICENSE": {
+      "size": 1090,
+      "sha256": "bfc6c00784b0bd9967354643ce9c95a6bc84e9d88137fa1c35dd468d8204a07e"
+    },
+    "src/ui/vendor/UPSTREAM.md": {
+      "size": 844,
+      "sha256": "20785de016ee6e871c64c02c4860e2e88a53ea6cd469eb45878373064ea5321b"
+    },
+    "src/ui/vendor/controller.c": {
+      "size": 14838,
+      "sha256": "9a2489dfe3e0f008615a15edd0466815f10ababcc5427a4ef45f76be4b8d19ec"
+    },
+    "src/ui/vendor/controller.h": {
+      "size": 6182,
+      "sha256": "4ac71d90c46e51936958438545d9cb3a6ec6a2516cc902e476129be62d72fd77"
+    },
+    "src/ui/vendor/native_files.c": {
+      "size": 15454,
+      "sha256": "a44335303c2e0bc3adb0ef5636e00eaebd62bb5406e2eefaf0cfed127e24edec"
+    },
+    "src/ui/vendor/native_files.h": {
+      "size": 3028,
+      "sha256": "b7d1607d09094c18171320db91372e7090d2cf466ddde5c24fc978748acbf1cb"
+    },
+    "src/ui/vendor/peq.c": {
+      "size": 23643,
+      "sha256": "39f226c406de72f6ff5c1607918e577245f0e4da52aa510d1355c8d4b5a19c61"
+    },
+    "src/ui/vendor/peq.h": {
+      "size": 2664,
+      "sha256": "795d805ee1e3d34d80204af202ebb87a43160f626e98613151db1eb6956ed4aa"
+    },
+    "src/ui/vendor/peq_adapter.c": {
+      "size": 890,
+      "sha256": "dfb728ade1aafc28497b57ab3cf2c30a74df6be7c5aec511b9df5de941ca0c10"
+    },
+    "src/ui/vendor/peq_adapter.h": {
+      "size": 626,
+      "sha256": "b93466881ad3ddc10b4ca70662be45c4633c90bf413b49c7147fdcae740410bb"
+    },
+    "src/ui/vendor/peq_awtk_view.c": {
+      "size": 20749,
+      "sha256": "64a3ee9c8ffa551820a140318ce11edeff95789cd0cdc5a4a522a277c0b9b65c"
+    },
+    "src/ui/vendor/peq_awtk_view.h": {
+      "size": 15915,
+      "sha256": "5879ec91d23e5dee5c7d0827a1d8f9d1da21ea10318f3751516f412d72f78ee5"
+    },
+    "src/ui/vendor/peq_platform.h": {
+      "size": 895,
+      "sha256": "acfc4a8debdf872e8b1589a9e06b11b8a87ac18609cd9150fc94a8976498b5bc"
+    },
+    "src/ui/vendor/view.c": {
+      "size": 1328,
+      "sha256": "6474a2ae663a627d5b075555578b35226ff63d4913190e61163eff3705f5b711"
+    },
+    "src/ui/vendor/view.h": {
+      "size": 1089,
+      "sha256": "faf29094d9b7595c4d4329d57628cc79615f069331cc4247b154bebb8d6161f7"
+    },
+    "tools/awtk_resource.py": {
+      "size": 4423,
+      "sha256": "501c3fbea229ac396743b8f98e7d77e140b85d1c1a4b2e7308176c9176f17237"
+    },
+    "tools/build.py": {
+      "size": 5935,
+      "sha256": "4179c0baa64d3c12015a5575c8e0333af79ee81147547d44e13738383ec4ef90"
+    },
+    "tools/elf_compact.py": {
+      "size": 7629,
+      "sha256": "a6d9b9537d8a01d7ba6a811bbcaf243d5f723500ec9a64d6e75d0882ca14af33"
+    },
+    "tools/audio/build_candidate.py": {
+      "size": 11770,
+      "sha256": "2b355e0b0a0a8ab1b6ed8c69c3813fa7b3200cf9cd5222d05b573a9ccf209db7"
+    },
+    "tools/audio/build_payload.sh": {
+      "size": 3538,
+      "sha256": "446bb5b2bdbdc53bae63c64250362ebc42a7267b892c1a2af8a748d3bc633076"
+    },
+    "tools/audio/derive_plt.py": {
+      "size": 5880,
+      "sha256": "eb201a8d40c832cf5b47dcc1c7702f1b90a1be12c8117556f6afdb1237a0f99b"
+    },
+    "tools/audio/payload.lds": {
+      "size": 1223,
+      "sha256": "499f1e798118798118271150e1183540c716687a42c390ad53ef6a2497393dd4"
+    },
+    "tools/audio/rate_patch.py": {
+      "size": 1573,
+      "sha256": "af68dbe246167191ad52649d5ad3143c6bba24708d408258c835fb4f4fb6724e"
+    },
+    "tools/package/build_candidate.py": {
+      "size": 27400,
+      "sha256": "09c723e5ec6127d9a83f2685ac1069f6649ac36a1288ce70a52e14c0736113ff"
+    },
+    "tools/package/resource_guard.py": {
+      "size": 1831,
+      "sha256": "08facf7835f7021cb3ae55ec659dade0257ae3efdbcc1cd567927032b28f651c"
+    },
+    "tools/ui/build.sh": {
+      "size": 3297,
+      "sha256": "210e919cd74931a43fb08ae9e39b495be37dac9c723ae49051eaf0715fc1c561"
+    },
+    "tools/ui/patch.py": {
+      "size": 5860,
+      "sha256": "c88fe0009ec1065a0bca96aed9c0ca05a891feb83643183c8a5f891e2f13b7d5"
+    },
+    "tools/ui/patch_dual.py": {
+      "size": 2376,
+      "sha256": "64b471c62c3526c576f9023e76de9afe5283164e38305b79a525398aae2accbf"
+    },
+    "tools/ui/resource.py": {
+      "size": 1674,
+      "sha256": "e9b9598e890431961ea9ef76013d7919aa2f9979d1e843b43b41d42d9a8dfd10"
+    },
+    "tools/ui/verify.py": {
+      "size": 7603,
+      "sha256": "e45d44f1eb0f96e640e3d00b3a2dbb1599149e1c7087dbe43d1d05ebade9480f"
+    }
+  }
+}

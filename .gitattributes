@@ -1,0 +1,2 @@
+# Preserve exact byte hashes in the source and release manifests.
+* -text
